@@ -4,6 +4,7 @@ import "./globals.css";
 import { SITE, SITE_URL } from "@/lib/site";
 import { OrganizationJsonLd, WebsiteJsonLd } from "@/components/JsonLd";
 import Cursor from "@/components/Cursor";
+import { Analytics } from "@vercel/analytics/next";
 
 const display = Space_Grotesk({
   subsets: ["latin"],
@@ -126,6 +127,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Cursor />
         {children}
+        <Analytics />
       </body>
     </html>
   );
