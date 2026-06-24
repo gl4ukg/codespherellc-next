@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-import Marquee from "@/components/Marquee";
 import Services from "@/components/Services";
 import Capabilities from "@/components/Capabilities";
 import Process from "@/components/Process";
@@ -27,7 +26,6 @@ export default function HomePage() {
       <Nav />
       <main>
         <Hero />
-        <Marquee />
         <Reveal y={48}><Services /></Reveal>
         <Reveal y={48} delay={60}><Capabilities /></Reveal>
         <Reveal y={48}><Process /></Reveal>
