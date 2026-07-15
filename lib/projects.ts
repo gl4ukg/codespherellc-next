@@ -63,29 +63,6 @@ export const projects: Project[] = [
     deviceFrame: true,
   },
   {
-    slug: "aurum-cantina",
-    title: "Bold digital presence for Gjakova's first cantina",
-    client: "Aurum Cantina",
-    industry: "Hospitality",
-    year: "2025",
-    duration: "6 weeks",
-    summary:
-      "Gjakova's first cantina needed a site that matched the concept — bold, gold, unmistakably premium. We built the full menu experience around it.",
-    description:
-      "Aurum Cantina is Gjakova's first cantina — a venue built around unique flavors, a curated menu, and an atmosphere that blends elegance with boldness. We designed and developed a full digital experience to match: a dark, gold-accented website centered around their menu, with rich photography and a layout that feels as premium as walking through the door. Every section was crafted to translate the in-venue vibe into pixels.",
-    services: ["Web Design", "Web Development", "Menu Experience"],
-    stack: ["Next.js", "TypeScript", "CSS"],
-    results: [
-      { label: "Launch", value: "6 weeks" },
-      { label: "Menu experience", value: "Full digital" },
-      { label: "Aesthetic", value: "Bold & premium" },
-    ],
-    artClass: "c1",
-    image: "/images/aurum.png",
-    deviceFrame: true,
-    liveUrl: "https://aurumcantina.com",
-  },
-  {
     slug: "etrit-hair",
     title: "Minimal editorial site for a Prishtina salon studio",
     client: "Etrit Hair",
@@ -107,6 +84,29 @@ export const projects: Project[] = [
     image: "/images/etrit.png",
     deviceFrame: true,
     liveUrl: "https://etrithair.com",
+  },
+  {
+    slug: "aurum-cantina",
+    title: "Bold digital presence for Gjakova's first cantina",
+    client: "Aurum Cantina",
+    industry: "Hospitality",
+    year: "2025",
+    duration: "6 weeks",
+    summary:
+      "Gjakova's first cantina needed a site that matched the concept — bold, gold, unmistakably premium. We built the full menu experience around it.",
+    description:
+      "Aurum Cantina is Gjakova's first cantina — a venue built around unique flavors, a curated menu, and an atmosphere that blends elegance with boldness. We designed and developed a full digital experience to match: a dark, gold-accented website centered around their menu, with rich photography and a layout that feels as premium as walking through the door. Every section was crafted to translate the in-venue vibe into pixels.",
+    services: ["Web Design", "Web Development", "Menu Experience"],
+    stack: ["Next.js", "TypeScript", "CSS"],
+    results: [
+      { label: "Launch", value: "6 weeks" },
+      { label: "Menu experience", value: "Full digital" },
+      { label: "Aesthetic", value: "Bold & premium" },
+    ],
+    artClass: "c1",
+    image: "/images/aurum.png",
+    deviceFrame: true,
+    liveUrl: "https://aurumcantina.com",
   },
   {
     slug: "gym-app",
