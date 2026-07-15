@@ -1,4 +1,24 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
+  const pathname = usePathname();
+
+  if (href.startsWith("/#")) {
+    const id = href.slice(2);
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+      if (pathname === "/") {
+        e.preventDefault();
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+    return <a href={href} onClick={handleClick}>{children}</a>;
+  }
+
+  return <Link href={href}>{children}</Link>;
+}
 
 export default function Nav() {
   return (
@@ -11,10 +31,10 @@ export default function Nav() {
           </span>
         </Link>
         <div className="nav-links">
-          <Link href="/services">Services</Link>
-          <Link href="/work">Work</Link>
-          <Link href="/#process">Process</Link>
-          <Link href="/contact">Contact</Link>
+          <NavLink href="/#services">Services</NavLink>
+          <NavLink href="/#work">Work</NavLink>
+          <NavLink href="/#process">Process</NavLink>
+          <NavLink href="/contact">Contact</NavLink>
         </div>
         <div className="nav-cta">
           <Link className="btn" href="/contact">Book a call</Link>
