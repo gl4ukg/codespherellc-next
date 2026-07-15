@@ -68,7 +68,7 @@ export const projects: Project[] = [
     client: "Etrit Hair",
     industry: "Beauty & Lifestyle",
     year: "2025",
-    duration: "5 weeks",
+    duration: "4 weeks",
     summary:
       "A salon studio in Prishtina needed a site as sharp as the cuts. We designed something minimal and editorial — dark, confident, built around real portfolio work.",
     description:
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     services: ["Web Design", "Web Development", "Bilingual (EN/SQ)"],
     stack: ["Next.js", "TypeScript", "CSS"],
     results: [
-      { label: "Launch", value: "5 weeks" },
+      { label: "Launch", value: "4 weeks" },
       { label: "Languages", value: "EN & SQ" },
       { label: "Photography", value: "Real portfolio" },
     ],
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     client: "Aurum Cantina",
     industry: "Hospitality",
     year: "2025",
-    duration: "6 weeks",
+    duration: "2 weeks",
     summary:
       "Gjakova's first cantina needed a site that matched the concept — bold, gold, unmistakably premium. We built the full menu experience around it.",
     description:
@@ -99,7 +99,7 @@ export const projects: Project[] = [
     services: ["Web Design", "Web Development", "Menu Experience"],
     stack: ["Next.js", "TypeScript", "CSS"],
     results: [
-      { label: "Launch", value: "6 weeks" },
+      { label: "Launch", value: "2 weeks" },
       { label: "Menu experience", value: "Full digital" },
       { label: "Aesthetic", value: "Bold & premium" },
     ],
