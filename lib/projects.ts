@@ -84,6 +84,52 @@ export const projects: Project[] = [
     image: "/images/gym-app.webp",
   },
   {
+    slug: "aurum-cantina",
+    title: "Bold digital presence for Gjakova's first cantina",
+    client: "Aurum Cantina",
+    industry: "Hospitality",
+    year: "2025",
+    duration: "6 weeks",
+    summary:
+      "Gjakova's first cantina needed a site that matched the concept — bold, gold, unmistakably premium. We built the full menu experience around it.",
+    description:
+      "Aurum Cantina is Gjakova's first cantina — a venue built around unique flavors, a curated menu, and an atmosphere that blends elegance with boldness. We designed and developed a full digital experience to match: a dark, gold-accented website centered around their menu, with rich photography and a layout that feels as premium as walking through the door. Every section was crafted to translate the in-venue vibe into pixels.",
+    services: ["Web Design", "Web Development", "Menu Experience"],
+    stack: ["Next.js", "TypeScript", "CSS"],
+    results: [
+      { label: "Launch", value: "6 weeks" },
+      { label: "Menu experience", value: "Full digital" },
+      { label: "Aesthetic", value: "Bold & premium" },
+    ],
+    artClass: "c1",
+    image: "/images/aurum.png",
+    deviceFrame: true,
+    liveUrl: "https://aurumcantina.com",
+  },
+  {
+    slug: "etrit-hair",
+    title: "Minimal editorial site for a Prishtina salon studio",
+    client: "Etrit Hair",
+    industry: "Beauty & Lifestyle",
+    year: "2025",
+    duration: "5 weeks",
+    summary:
+      "A salon studio in Prishtina needed a site as sharp as the cuts. We designed something minimal and editorial — dark, confident, built around real portfolio work.",
+    description:
+      "Etrit Hair is a premium salon studio in Prishtina. The brief was simple: build something that looks as good as the work. We went dark, minimal, and editorial — no stock photography, just real portfolio shots front and center. The result is a site that feels confident and intentional, with a bilingual layout (EN/SQ), a services section, and a gallery that lets the work speak for itself.",
+    services: ["Web Design", "Web Development", "Bilingual (EN/SQ)"],
+    stack: ["Next.js", "TypeScript", "CSS"],
+    results: [
+      { label: "Launch", value: "5 weeks" },
+      { label: "Languages", value: "EN & SQ" },
+      { label: "Photography", value: "Real portfolio" },
+    ],
+    artClass: "c2",
+    image: "/images/etrit.png",
+    deviceFrame: true,
+    liveUrl: "https://etrithair.com",
+  },
+  {
     slug: "stock-app",
     title: "Stock market tracking and portfolio app",
     client: "Stock App",
