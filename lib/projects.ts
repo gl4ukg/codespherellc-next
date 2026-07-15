@@ -63,27 +63,6 @@ export const projects: Project[] = [
     deviceFrame: true,
   },
   {
-    slug: "gym-app",
-    title: "Mobile app built for modern gym management",
-    client: "Gym App",
-    industry: "Fitness & Health",
-    year: "2024",
-    duration: "4 months",
-    summary:
-      "A gym management mobile app covering memberships, class scheduling, and member tracking for fitness businesses.",
-    description:
-      "A cross-platform mobile application designed for gym owners and their members. The app handles membership management, class scheduling, trainer assignments, and attendance tracking — giving gym operators a single tool to run their business while members can book sessions and track their progress. Built with a clean, motivating UI tailored to the fitness industry.",
-    services: ["Mobile Applications", "Software Development", "UI/UX"],
-    stack: ["React Native", "Node.js", "PostgreSQL"],
-    results: [
-      { label: "Core features", value: "Memberships, Classes, Tracking" },
-      { label: "Platforms", value: "iOS & Android" },
-      { label: "Delivery", value: "4 months" },
-    ],
-    artClass: "c3",
-    image: "/images/gym-app.webp",
-  },
-  {
     slug: "aurum-cantina",
     title: "Bold digital presence for Gjakova's first cantina",
     client: "Aurum Cantina",
@@ -128,6 +107,27 @@ export const projects: Project[] = [
     image: "/images/etrit.png",
     deviceFrame: true,
     liveUrl: "https://etrithair.com",
+  },
+  {
+    slug: "gym-app",
+    title: "Mobile app built for modern gym management",
+    client: "Gym App",
+    industry: "Fitness & Health",
+    year: "2024",
+    duration: "4 months",
+    summary:
+      "A gym management mobile app covering memberships, class scheduling, and member tracking for fitness businesses.",
+    description:
+      "A cross-platform mobile application designed for gym owners and their members. The app handles membership management, class scheduling, trainer assignments, and attendance tracking — giving gym operators a single tool to run their business while members can book sessions and track their progress. Built with a clean, motivating UI tailored to the fitness industry.",
+    services: ["Mobile Applications", "Software Development", "UI/UX"],
+    stack: ["React Native", "Node.js", "PostgreSQL"],
+    results: [
+      { label: "Core features", value: "Memberships, Classes, Tracking" },
+      { label: "Platforms", value: "iOS & Android" },
+      { label: "Delivery", value: "4 months" },
+    ],
+    artClass: "c3",
+    image: "/images/gym-app.webp",
   },
   {
     slug: "stock-app",
