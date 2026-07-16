@@ -149,17 +149,17 @@ export default function StartWizard() {
     <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       {/* Header */}
       <div style={{ padding: "24px 0", borderBottom: "1px solid var(--line)" }}>
-        <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24 }}>
+        <div className="container" style={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 24 }}>
           <Link href="/" className="logo" style={{ textDecoration: "none" }}>
             <span className="logo-mark" />
             <span style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: 18 }}>
               Codesphere<span style={{ color: "var(--fg-mute)", fontWeight: 400 }}>.llc</span>
             </span>
           </Link>
-          <div style={{ flex: 1, maxWidth: 400 }}>
+          <div style={{ width: 320 }}>
             <ProgressBar step={step} />
           </div>
-          <div className="mono" style={{ fontSize: 12, color: "var(--fg-mute)", letterSpacing: ".1em", whiteSpace: "nowrap" }}>
+          <div className="mono" style={{ fontSize: 12, color: "var(--fg-mute)", letterSpacing: ".1em", whiteSpace: "nowrap", textAlign: "right" }}>
             {step < STEPS ? `${step} / ${STEPS - 1}` : "Review"}
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function StartWizard() {
 
       {/* Body */}
       <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", padding: "48px 0" }}>
-        <div className="container" style={{ maxWidth: 760 }}>
+        <div style={{ maxWidth: 760, margin: "0 auto", padding: "0 28px", width: "100%" }}>
 
           {/* Step 1 — Project type */}
           {step === 1 && (

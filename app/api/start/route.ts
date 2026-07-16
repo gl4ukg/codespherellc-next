@@ -9,8 +9,8 @@ export async function POST(req: NextRequest) {
 
   try {
     await resend.emails.send({
-      from: "Codesphere <onboarding@resend.dev>",
-      to: "glauk@codespherellc.com",
+      from: "Codesphere <noreply@codespherellc.com>",
+      to: ["glauk@codespherellc.com"],
       subject: `New project inquiry from ${name} — ${company || "No company"}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; background: #0a0e1a; color: #e8eaf0; padding: 40px; border-radius: 12px;">
