@@ -36,7 +36,7 @@ export default function Hero() {
 
           <Reveal y={20} delay={500}>
             <div className="hero-ctas">
-              <Link className="btn primary lg" href="/contact">
+              <Link className="btn primary lg" href="/start">
                 Start a project <span className="arrow">→</span>
               </Link>
               <Link className="btn lg" href="/work">See our work</Link>

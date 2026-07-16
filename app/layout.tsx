@@ -4,6 +4,7 @@ import "./globals.css";
 import { SITE, SITE_URL } from "@/lib/site";
 import { OrganizationJsonLd, WebsiteJsonLd } from "@/components/JsonLd";
 import Cursor from "@/components/Cursor";
+import PageTransition from "@/components/PageTransition";
 import { Analytics } from "@vercel/analytics/next";
 
 const display = Space_Grotesk({
@@ -126,7 +127,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <Cursor />
-        {children}
+        <PageTransition>{children}</PageTransition>
         <Analytics />
       </body>
     </html>
