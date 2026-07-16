@@ -17,9 +17,9 @@ export default function CTA() {
             We&apos;ll get back within one business day with a real human and a real plan.
           </p>
           <div className="cta-actions">
-            <a className="btn primary lg" href={`mailto:${SITE.email}`}>
-              {SITE.email} <span className="arrow">→</span>
-            </a>
+            <Link className="btn primary lg" href="/start">
+              Start a project <span className="arrow">→</span>
+            </Link>
             <Link className="btn lg" href="/contact">Book a 30-min intro</Link>
           </div>
           <div

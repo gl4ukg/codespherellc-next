@@ -38,7 +38,7 @@ export default function Nav() {
         </div>
         <div className="nav-cta">
           <Link className="btn" href="/contact">Book a call</Link>
-          <Link className="btn primary" href="/contact">
+          <Link className="btn primary" href="/start">
             Start a project <span className="arrow">→</span>
           </Link>
         </div>
